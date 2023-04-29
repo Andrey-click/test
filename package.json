@@ -7,12 +7,12 @@
     "cy:run": "cypress run",
     "cy:chrome": "cypress run --browser chrome"
   },
-
   "author": "",
   "license": "ISC",
-
   "dependencies": {
     "cypress": "^12.8.1"
-
+  },
+  "devDependencies": {
+    "cypress-wait-until": "^1.7.2"
   }
 }
