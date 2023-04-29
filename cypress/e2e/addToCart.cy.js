@@ -1,10 +1,10 @@
-import { MainPage } from "../pages/mainPage";
+import { CartPage } from "../pages/cartPage";
 
 describe("template spec", () => {
 
-  const web = new MainPage();
+  const cart = new CartPage();
   it('WEB-T1 should add item to cart and then delete it', () => {
     cy.visit('https://www.demoblaze.com/')
-    web.addToCartFunctionality()
+    cart.addToCartFunctionality()
   })
 })
