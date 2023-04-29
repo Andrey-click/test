@@ -1,0 +1,10 @@
+{
+  "user": {
+    "userName": "John Doe",
+    "userCountry": "United States",
+    "userCity": "New York",
+    "userCard": "1234567890123456",
+    "month": "01",
+    "year": "2025"
+  }
+}
